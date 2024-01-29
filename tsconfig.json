@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Node LTS",
+    "_version": "18.1.0",
+    "compilerOptions": {
+        "lib": ["es2023", "dom"],
+        "module": "NodeNext",
+        "target": "es2022",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "NodeNext",
+        "noUncheckedIndexedAccess": true,
+        "resolveJsonModule": true,
+        "types": ["node"],
+        "allowSyntheticDefaultImports": true,
+    },
+    "include": ["src/**/*"],
+    "ts-node": {
+        "esm": true,
+        "files": true,
+        "experimentalSpecifierResolution": "node",
+    },
+}
