@@ -35,7 +35,7 @@
         "commitizen": "^4.3.0",
         "cross-env": "^7.0.3",
         "cz-conventional-changelog": "^3.3.0",
-        "husky": "^9.0.7",
+        "husky": "^9.0.10",
         "lint-staged": "^15.2.0",
         "nodemon": "^3.0.1",
         "prettier": "^3.0.3",
